@@ -9,7 +9,7 @@ For more informaiton about _AffecTube - Chrome extension for YouTube video affec
 The service is provided as a docker container. To lunch it, run the following commands:
 ```bash
 $ docker build -t StorageAPI .
-$ docker run -p 8081:80 -d StorageAPI
+$ docker run -p 8081:80 -d storageapi
 ```
 where `8081` is a sample port number that the service will listen on.
 
